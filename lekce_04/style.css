@@ -1,0 +1,15 @@
+p.styl1 {
+    background-color: grey; 
+    font-size: 40px; 
+    font-weight: bold;
+}
+.modra {
+    color: blue; 
+
+}
+.zelena {
+    color: green; 
+}
+.zluta {
+    color: yellow;
+}
