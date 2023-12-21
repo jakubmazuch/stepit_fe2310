@@ -14,7 +14,7 @@ tr:hover:not(:first-child) {
     background-color: rgb(109, 109, 109);
     color: white;
 }
-tr:first-child th:nth-child(n+3)::after {
+th:nth-child(n+3)::after {
     counter-increment: cislo;
     content: "Kolo " counter(cislo) ": ";
 }
