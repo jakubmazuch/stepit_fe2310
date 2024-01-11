@@ -1,0 +1,54 @@
+.obdelnik {
+    height: 30px;
+    width: 0px;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.animace2 {
+    background-color: red;
+    animation-name: animace2;
+}
+@keyframes animace2 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 650px;
+    }
+}
+.animace3 {
+    background-color: green;
+    animation-name: animace3;
+}
+@keyframes animace3 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 240px;
+    }
+}
+.animace4 {
+    background-color: blue;
+    animation-name: animace4;
+}
+@keyframes animace4 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 800px;
+    }
+}
+.animace5 {
+    background-color: violet;
+    animation-name: animace5;
+}
+@keyframes animace5 {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 550px;
+    }
+}
