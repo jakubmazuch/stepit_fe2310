@@ -1,0 +1,22 @@
+svg {
+    cursor: zoom-out;
+}
+/*Fajfka*/
+.fajfkaPozadi {
+    fill: rgb(177, 227, 177);
+    stroke: green;
+    stroke-width: 2;
+}
+.fajfkaIkona {
+    fill: none;
+    stroke: green;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+.fajfka:hover .fajfkaPozadi {
+    fill: green;
+    stroke: rgb(177, 227, 177);
+}
+.fajfka:hover .fajfkaIkona {
+    stroke: rgb(177, 227, 177);
+}
